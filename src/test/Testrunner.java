@@ -7,7 +7,7 @@ import cucumber.api.CucumberOptions;
 public class Testrunner {
 
 	@RunWith(Cucumber.class)
-	@CucumberOptions(features = "src/Feature/FB_Login.feature", glue = { "Feature" }, tags = { "tag" }, plugin = {
+	@CucumberOptions(features = "src/Feature/Demoqa.feature", glue = { "Feature" }, tags = { "tag" }, plugin = {
 			"pretty", "html:target/cucumber-html-report" })
 
 	public class Testrun {
