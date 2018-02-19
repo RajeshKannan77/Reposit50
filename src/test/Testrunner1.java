@@ -9,7 +9,7 @@ public class Testrunner1 {
 
 	
 	@RunWith(Cucumber.class)
-	@CucumberOptions(features = "src/Feature/Flipkart.feature", glue = { "Feature" }, tags = { "tag" }, plugin = {
+	@CucumberOptions(features = "src/Feature/Flipkart.feature", glue = { "test" }, tags = { "tag" }, plugin = {
 			"pretty", "html:target/cucumber-html-report" })
 
 	public class Testrun {

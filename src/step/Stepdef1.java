@@ -15,13 +15,11 @@ import cucumber.api.java.en.When;
 
 public class Stepdef1 extends Flipkarttest {
 
-	public WebDriver driver;
-	public Actions act;
-
 	@Given("^User is on the Flipkart page and moves the cursor towards Tvs & Appliances$")
 	public void user_is_on_the_Flipkart_page_and_moves_the_cursor_towards_Tvs_Appliances() throws InterruptedException {
 
 		test1();
+
 	}
 
 	@When("^User moves the cursor towards Washine Machine and clicks Washine Machine$")
